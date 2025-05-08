@@ -1,0 +1,11 @@
+# .gitignore
+# --- Fichiers Python ---
+*.py[cod]
+__pycache__/
+# --- Env virtuel ---
+venv/
+env/
+# --- Autres ---
+.DS_Store
+.idea/
+.vscode/
