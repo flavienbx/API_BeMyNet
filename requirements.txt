@@ -1,0 +1,56 @@
+# Voici la liste des dépendances pour le projet BeMyNet avec MySQL
+# Note: Ne pas modifier directement le fichier requirements.txt, utiliser packager_tool à la place
+
+# Frameworks et extensions Flask
+Flask
+Flask-Cors
+Flask-Login
+Flask-SQLAlchemy
+Flask-WTF
+flasgger
+gunicorn
+
+# Base de données
+SQLAlchemy
+pymysql
+psycopg2-binary
+
+# Authentification et sécurité
+bcrypt
+PyJWT
+passlib
+email-validator
+cryptography
+python-jose
+
+# API REST
+requests
+httpx
+fastapi
+pydantic
+pydantic-settings
+uvicorn
+python-multipart
+
+# OAuth
+oauthlib
+Authlib
+
+# Paiements
+stripe
+
+# Génération de PDF
+fpdf
+reportlab
+
+# Utilitaires
+python-dotenv
+Werkzeug
+Jinja2
+itsdangerous
+click
+asyncio
+
+# Tests
+pytest
+pytest-flask
